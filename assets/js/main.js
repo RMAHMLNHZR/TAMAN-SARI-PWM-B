@@ -133,7 +133,7 @@ putarVideo.addEventListener("click", function () {
     document.body.style.overflow = "hidden";
     frameVideo.setAttribute(
     "src",
-    "https://www.youtube.com/embed/LH6NRxyGiwU?si=hk7nsnJb36xi1M7J"
+    "https://www.youtube.com/embed/fRT-BZS9sHs?si=f39K6XHd8FSlSUwP"
     );
 });
 tutupVideo.addEventListener("click", function () {
