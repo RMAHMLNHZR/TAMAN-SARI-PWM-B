@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="../../assets/css/detail_gallery.css">
+</head>
+<body>
+    <div class="menu">
+        <a href="/index.html" class="kembali">Home</a>
+    </div>
+    <h1>GALLERY TAMAN SARI</h1>
+    <div class="full-img" id="fullimgBox">
+        <img src="img/1.jpg" id="fullimg">
+        <span onclick="closeFullImg()">x</span>
+    </div>
+    <div class="img-gallery">
+        <img src="../../assets/img/detail_gallery/1.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/2.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/3.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/4.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/5.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/6.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/7.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/8.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/9.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/10.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/11.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/12.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/13.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/14.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/15.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/16.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/17.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/18.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/19.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/20.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/21.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/22.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/23.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/24.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/25.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/26.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/27.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/28.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/29.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/30.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/31.jpg" onclick="openFullImg(this.src)">
+        <img src="../../assets/img/detail_gallery/32.jpg" onclick="openFullImg(this.src)">
+    </div>
+
+    <script>
+        var fullimgBox = document.getElementById('fullimgBox');
+        var fullimg = document.getElementById('fullimg');
+
+        function openFullImg(pic){
+            fullimgBox.style.display = "flex";
+            fullimg.src = pic;
+        }
+
+        function closeFullImg() {
+            fullimgBox.style.display = "none";
+        }
+    </script>
+</body>
+</html>

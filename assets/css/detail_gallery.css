@@ -31,22 +31,6 @@ body{
     background-color: white;
     border-radius: 15px;
 }
-/* a{
-    position: absolute;
-    color: black;
-    text-align: right;
-    top: 9pc;
-    right: 100px;
-    text-decoration: none;
-}
-a:hover{
-    font-size: 105%;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
-    border-radius: 10px;
-    padding: 5px;
-    
-} */
 h1{
     text-align: center;
     font-size: 3rem;
@@ -68,7 +52,7 @@ h1{
 }
 .img-gallery img:hover{
     transform: scale(1.2) rotate(0deg);
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
 }
 .full-img{
@@ -94,7 +78,8 @@ h1{
     color: #fff;
     cursor: pointer;
 }
-@media only screen and (max-width: 768px) {
+
+/* @media only screen and (max-width: 768px) {
     a {
         top: 5%;
         right: 5%;
@@ -125,4 +110,4 @@ h1{
     .full-img img {
         width: 100%;
     }
-}
+} */
