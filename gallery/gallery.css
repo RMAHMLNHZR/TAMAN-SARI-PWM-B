@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: #fff;
+}
+.menu{
+    text-align: right;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    /* margin-top: 15px; */
+    background-color: burlywood;
+    padding: 10px;
+}
+.kembali{
+    position: relative;
+    top: 30%;
+    right: 5%;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+    color: #000000;
+    font-size: 20px;
+
+}
+.kembali:hover{
+    background-color: white;
+    border-radius: 15px;
+}
+/* a{
+    position: absolute;
+    color: black;
+    text-align: right;
+    top: 9pc;
+    right: 100px;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 105%;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px;
+    
+} */
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 30px;
+}
+
+.img-gallery img{
+    width: 100%;
+    cursor: pointer;
+}
+.img-gallery img:hover{
+    transform: scale(1.2) rotate(0deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
+}
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.full-img img{
+    width: 90%;
+    max-width: 1000px;
+}
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #fff;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    a {
+        top: 5%;
+        right: 5%;
+    }
+
+    .img-gallery {
+        width: 90%;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+    }
+
+    .full-img img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    a {
+        top: 5%;
+        right: 5%;
+    }
+
+    .img-gallery {
+        width: 90%;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 15px;
+    }
+
+    .full-img img {
+        width: 100%;
+    }
+}
