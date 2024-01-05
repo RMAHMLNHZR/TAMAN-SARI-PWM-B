@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* :root{
-
-} */
-
-
 *{
     margin: 0;
     padding: 0;
@@ -109,7 +104,6 @@ body{
     font-size: 70px;
     margin-top: auto;
     letter-spacing: monospace;
-    /* border-right: 5px solid; */
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -674,7 +668,7 @@ footer .container
 {
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 1fr  1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
 }
 footer .container .sec h2
@@ -691,8 +685,6 @@ footer .container .sec p
 footer .container .sci
 {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(4,50px);
 }
 footer .container .sci li
 {
@@ -701,13 +693,12 @@ footer .container .sci li
 
 footer .container .sci li a
 {
-    display: inline-block;
     width: 36px;
     height: 36px;
-    display: grid;
     align-content: center;
     justify-content: center;
     text-decoration: none;
+    color: black;
 }
 footer .container .sci li a i
 {
@@ -752,6 +743,8 @@ footer .container .contact .info li a
     color: #555;
     text-decoration: none;
 }
+
+
 .tamansari-end
 {
     width: 100%;
