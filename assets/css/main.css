@@ -762,5 +762,11 @@ footer .container .contact .info li a
         left: 30px;
     }
 }
+
+@media screen and (min-width: 1080px){
+    .vid-youtube{
+        top: 55px;
+    }
+}
 /* =============== End Responsive =============== */
 
