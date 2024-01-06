@@ -756,3 +756,11 @@ footer .container .contact .info li a
 }
 /* ===============End Footer=============== */
 
+/* =============== Responsive =============== */
+@media screen and (min-width: 1250px){
+    .vd-ts{
+        left: 30px;
+    }
+}
+/* =============== End Responsive =============== */
+
